@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navbar start */
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+html {
+    background-color: #FCFCFC;
+}
+body {
+    background: url("../img/fon-cloud-head.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.header {
+    background: url("../img/first-right.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.navbar-list-item {
+    tab-size: 20px;
+    padding: 0 30px;
+}
+
+.navbar-list-item a {
+    text-decoration: none;
+}
+.logo-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+    width: 106px;
+    height: 30px;
+}
+/* navbar end */
+/* header section start */
+.header-section {
+    display: flex;
+    margin: 140px 0;
+}
+
+.header-about {
+    padding: 20px;
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+}
+.about-name {
+    padding: 20px;
+    font-size: 28px;
+    color: #F78BB6;
+}
+.about-theme {
+    padding: 20px;
+    font-size: 64px;
+}
+
+.about-text {
+    padding: 20px;
+    max-width: 70%;
+    font-size: 20px;
+}
+                                        /* button start */
+.about-button {
+    background-color: #F78BB6;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 216px;
+    height: 66px;
+    align-items: center;
+}
+.button-text {
+    font-size: 20px;
+    align-items: center;
+}
+.str {
+    position: relative;
+    top: 0;
+    left: 8%;
+}
+                                        /* button end */
+
+/* header section end */
+
+/* main start */
+
+.services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servis {
+    font-size: 28px;
+    color: #F78BB6;
+}
+.about-servis {
+    font-size: 52px;
+}
+                             /* card start */
+.card {
+    justify-content: center;
+    display: flex;
+    max-width: 20%;
+    height: 350px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FFF1F9;
+}
+/* box sizing ------- umumiy img*/
+.box3 {
+    padding: 10px;
+    width: 49px;
+    height: 43px;
+    margin-bottom: 30px;
+}
+/* box sizing */
+/* card 1 start */
+.card1 {
+    display: flex;
+    justify-content: center;
+}
+.card-1-category {
+    padding: 5px;
+    font-size: 34px;
+}
+.card-text-about {
+    padding: 10px;
+}
+/* card 1 end */
+/* glabniy block  */
+.services-card {
+    display: flex;
+    justify-content: center;
+}
+/* box-3 start  */
+.card3 {
+    background-color: #F78BB6;
+    color: white;
+    height: 380px;
+}
+.card-see {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left: 35%;
+}
+/* pblock-one start  */
+.picture {
+    display: flex;
+    margin: 160px 0;
+}
+.block-one {
+    width: 50%;
+}
+
+/* block-one end  */
+/* block-two start  */
+
+.block-two {
+    padding: 20px;
+    margin: 5px auto;
+    display: flex;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+.design {
+    font-size: 28px;
+    padding: 20px;
+}
+.picture-head {
+    font-size: 52px;
+    padding: 20px;
+}
+.picture-main {
+    font-size: 20px
+    
+}
+.picture-text {
+    padding: 30px;
+}
+
+/* block-two end  */
+
+/* picture button  */
+.picture-button {
+    padding: 0 20px;
+}
+.picture-btn {
+    padding: 0 1%;
+    display: flex;
+    align-items: center;
+    background: #F78BB6;
+    color: white;
+    border-radius: 8px;
+    width: 194px;
+    height: 58px;
+}
+.str2 {
+    position: relative;
+    top: 0;
+    left: 9%;
+}
+/* picture button  */
+/* card 1 start */
+
+                                /* block-3 start  */
+                                /* border uchun */
+.block-3, .child-1, .child-2 {
+}
+                                /* border uchun */
+.block-3 {
+    display: flex;
+    margin-bottom: 140px;
+}
+/* .child-1 uchun css start  */
+.child-1 {
+    max-width: 50%;
+}
+.child-team {
+    font-size: 28px;
+    padding: 20px 0;
+}
+.child-theme {
+    font-size: 52px;
+    padding: 20px 0;
+}
+.child-text {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+/* .child-1 uchun css end  */
+
+.child-2 {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    height: 30px;
+    width: 50%;
+}
+.home-img {
+    height: 450px;
+}
+.home-btn {
+    position: relative;
+    top: 0;
+    left: -3%;
+}
+
+/* blocl user start  */
+.block-user {
+    display: flex;
+    justify-content: center;
+}
+.user {
+    max-width: 50%;
+    padding: 60px;
+    margin: 0 40px;
+}
+.user-about {
+    max-width: 30%;
+    padding: 0 70px;
+    margin: 0 40px;
+}
+.user-theme, .user-text {
+    font-size: 28px;
+    margin: 40px 0;
+}
+.user-theme {
+    color: #F78BB6;
+}
+.user-about-item {
+    font-size: 52px;
+}
+.user-text {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.user-name {
+    font-size: 28px;
+    padding: 30px 0;
+}
+.user-from {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.pagination-user {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -8%;
+    left: 80%;
+}
+.left-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.right-btn {
+    display: flex;
+    align-items: center;
+}
+                            /* block - 5 start  */
+.block-5 {
+    display: flex;
+    justify-content: center;
+}
+                            /* block - 5 end  */
+
+/* blocl user end  */
+/* subscription start  */
+.subscription {
+    display: flex;
+}
+.sub-img {
+    max-width: 50%;
+    padding: 0 40px;
+}
+.subscription-block {
+    max-width: 50%;
+    padding: 0 40px;
+    margin-bottom: 170px;
+}
+.sub-title {
+    font-size: 52px;
+    margin: 20px 0;
+}
+.sub-image {
+    margin-left: 3%;
+}
+.sub-text {
+    font-size: 20px;
+    max-width: 70%;
+    padding: 20px 0;
+}
+.sub-footer {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+    border-radius: 8px;
+    background: #fff;
+}
+.sub-btn {
+    width: 178px;
+    height: 54px;
+    position: relative;
+    left: 34%;
+
+}
+.message-text {
+    margin-left: 15px;
+}
+/* subscription end  */
+/* main end */
+/* footer start  */
+.footer {
+    background: url("../img/fon-cloud-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+.footer-icon {
+    width: 41px;
+    height: 41px;
+    padding: 10px;
+    border-radius: 40%;
+    margin: 0 10px;
+    background: #fff;
+}
+li {
+    list-style-type: none;
+}
+.footer-logo-text {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.footer-item-text {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.follow-item {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* elementlar joylashuvi  */
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    box-sizing: border-box;
+}
+.footer-list-icon {
+    display: flex;
+}
+/* elementlar joylashuvi  */
+.foo-block-title {
+    font-size: 24px;
+    padding: 30px;
+}
+.foo-text {
+    font-size: 20px;
+    padding: 30px ;
+}
+.resouces, .about-footer, .footer-help {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-two {
+    background: #F78BB6;
+    padding: 10px;
+    display: flex;
+}
+.copy-right {
+    margin: 0 60% 0 10%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.internet {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* footer end  */
